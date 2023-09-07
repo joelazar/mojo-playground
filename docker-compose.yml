@@ -1,0 +1,15 @@
+version: "3.7"
+services:
+  mojo:
+    container_name: mojo
+    image: mojo-playground:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        USER_ID: ${USER_ID}
+        GROUP_ID: ${GROUP_ID}
+        MODULAR_AUTH: ${MODULAR_AUTH}
+    volumes:
+      - ${PWD}:/home/mojo/mojo-playground
+    tty: true
