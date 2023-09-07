@@ -2,6 +2,8 @@
 
 Experimenting with the [Mojo](https://www.modular.com/mojo) 🔥 programming language.
 
+![Made with VHS](https://vhs.charm.sh/vhs-4fdERQG90KpXez41EtyvnR.gif)
+
 ## Requirements
 
 - [Docker](https://www.docker.com/)
